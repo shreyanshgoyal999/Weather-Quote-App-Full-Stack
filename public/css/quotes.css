@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans:600');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+:root {
+	 --main-color: white;
+	 --secondary-color: DodgerBlue;
+	 --sans: "josefin sans", sans serif;
+}
+
+
+.main-container{
+	background-color: DodgerBlue ;
+	width: 40%;
+	margin:auto;
+	min-height : 50%;
+	color: rgb(121, 120, 120);
+	 font-family: var(--sans);
+}
+
+.container{
+	background-color: white;
+	width: 80%;
+	min-height: 70%;
+	padding:20px 0 0 0;
+	box-shadow: 0 0 12px 1px black;
+	
+}
+
+#tweetNow{
+	color:rgb(29,161,242); 
+	background: none;
+	border: none;
+	align-self: flex-end;
+	padding : 0px 15px;
+	font-size: 25px;
+	outline: none;
+}
+
+#tweetNow:hover{
+	cursor: pointer;
+}
+
+
+#sign{
+	color:silver;
+	padding: 0px 10px;
+	font-size: 2.5rem;
+}
+
+#Quotes{
+	padding: 20px;
+}
+
+#Author{
+	
+	align-items: center;
+	justify-content: flex-end;
+	padding : 0 20px;
+}
+
+#newQuote{
+	margin-top: auto;
+	outline: none;
+}
+
+
+
+ .button {
+	background: DodgerBlue;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	font-family: var(--sans);
+	transition: 0.2s ease-out;
+}
+
+
+
+.button:hover {
+	 border-top: 2px solid black;
+	 background: white;
+	 color:rgb(6, 93, 180);
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+
+
+
+ 

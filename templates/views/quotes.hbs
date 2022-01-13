@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    {{>header_links}}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tweet Quotes</title>
+
+    {{!-- Quotes Css --}}
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/quotes.css">
+
+    <script src="https://kit.fontawesome.com/36535113cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    {{!-- Header --}}
+    {{>header}}
+
+    <div class="main-container d-flex align-items-center">
+        <div class="container d-flex flex-column">
+            	
+            <button id="tweetNow"><i class="fa fa-twitter"></i></button>
+            <i id="sign" class="fas fa-quote-left"></i>
+            <div id="Quotes">{{quote}}</div>
+            <div id="Author" class="d-flex">{{author}}</div>
+         
+            <a href="/quotes" id="newQuote" class="button btn-1">New Quote</a>
+          
+        </div>
+    </div>
+
+    {{!-- Footer --}}
+    {{>footer}}
+    <script src="js/quotes.js"></script>
+</body>
+</html>

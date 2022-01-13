@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1rem;
+    color:white;
+}
+
+/* Header */
+.header{
+    padding: 0px 50px;
+}
+
+/* temp_form */
+.color_bl{
+    color:DodgerBlue;
+}
+
+.temp_form{
+    display:flex;
+    background-color: black;
+    width: 50%;
+    padding: 5px 4px 5px 10px;
+    border-radius: 20px;
+}
+
+
+#city,#search{
+    color:white;
+    border:none;
+    background: none;
+    border-radius: 20px;
+    outline:none;
+}
+
+#city{
+    width:70%;
+}
+#search{
+    width:30%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+input[type="submit"]{
+    font-size: 0.9rem;
+    background-color: DodgerBlue;
+    border:none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    color:white;
+}
+
+
+/* Temp Information*/
+.tempInformation {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 170px;
+    margin-top: 40px;
+
+}
+
+/* Temp Information -> Top Layer */
+.top_layer{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    padding: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.day{
+   width:50%; 
+   display:flex;
+    justify-content: flex-start;
+}
+.date{
+    width:50%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+/* Temp Information -> Main Layer */
+.main_layer{
+    background-color: rgb(48, 48, 48);
+    display:flex;
+    flex-direction: column;
+    padding: 7px;
+    height:200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.temp{
+    font-size: 3.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.hide_data{
+    visibility: hidden;
+}
+
+
+/* Footer */
+footer{
+    height: 6%;
+    font-size: 0.9rem;
+    background-color: black;
+    color :white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+
+
+@media only screen and (max-width:992px)
+{
+    .header{
+        
+        padding: 0px 0px 0px 50px;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .header{
+        
+        padding: 0px 0px 0px 25px;
+    }
+
+
+    .temp_form{
+        width:90%;
+    }
+
+    .tempInformation{
+        width:270px;
+    }
+}
