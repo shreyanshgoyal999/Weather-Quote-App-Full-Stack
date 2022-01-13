@@ -32,7 +32,7 @@ const getWeather = async(event)=>{
         {
           try{  
             
-            let url  = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=5425a6ecab425f4758218a98974240b0`;
+            let url  = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=5425a6ecab425f4758218a98974240b0`;
             
             // OpenWeather Api key is used
             const response = await fetch(url);
