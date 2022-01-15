@@ -18,7 +18,7 @@
 	margin:auto;
 	min-height : 50%;
 	color: rgb(121, 120, 120);
-	 font-family: var(--sans);
+	font-family: var(--sans);
 }
 
 .container{
@@ -87,6 +87,29 @@
 	 cursor: pointer;
 	 text-decoration: none;
 }
+
+@media only screen and (max-width:992px)
+{
+	.main-container{
+		
+		width: 70%;
+
+	}
+}
+
+@media only screen and (max-width:768px)
+{
+	.main-container{
+		
+		width: 90%;
+
+	}
+	.container{
+		background-color: white;
+		width: 83%;
+	}
+}
+
 
 
 

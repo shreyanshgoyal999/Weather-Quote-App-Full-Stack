@@ -52,6 +52,7 @@ input[type="submit"]{
     padding: 5px 15px;
     box-shadow: 0px 5px 5px -3px;
     border:none;
+    outline: none;
 }
 
 input[type="submit"]:hover{
@@ -133,9 +134,10 @@ footer{
         margin-bottom: 78px;
         
     }
-    input[type="text"],textarea{
+    input[type="text"],textarea,input[type="email"],input[type="tel"]{
         
         width: 90%;
         
     }
+
 }
